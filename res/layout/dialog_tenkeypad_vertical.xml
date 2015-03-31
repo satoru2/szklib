@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:keypad="http://com/api/view/tenkeypad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.api.view.tenkeypad.TenKeyPad
+        android:id="@+id/tenkeypad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        keypad:orientation="vertical" />
+
+</LinearLayout>

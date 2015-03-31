@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">api</string>
+    <!-- KeyButton String -->
+    <string name="keybutton1">1</string>
+    <string name="keybutton2">2</string>
+    <string name="keybutton3">3</string>
+    <string name="keybutton4">4</string>
+    <string name="keybutton5">5</string>
+    <string name="keybutton6">6</string>
+    <string name="keybutton7">7</string>
+    <string name="keybutton8">8</string>
+    <string name="keybutton9">9</string>
+    <string name="keybutton0">0</string>
+    <string name="keybuttonBS">BS</string>
+    <string name="keybuttonAC">AC</string>
+    <string name="keybuttonEnter">Enter</string>
+</resources>

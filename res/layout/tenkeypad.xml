@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical" >
+
+    <com.api.view.tenkeypad.TenKeyPadDisp
+        android:id="@+id/keyPadDisp"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="3dp"
+        android:background="@color/white"
+        android:gravity="center_vertical|right"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/green" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button1"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton1" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button2"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton2" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button3"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton3" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/buttonBS"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybuttonBS" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button4"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton4" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button5"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton5" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button6"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton6" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/nothing"
+                style="@style/Style_KeyButton"
+                android:background="@color/transparent"
+                android:enabled="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button7"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton7" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button8"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton8" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button9"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton9" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/buttonAC"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybuttonAC" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/button0"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybutton0" />
+
+            <com.api.view.tenkeypad.KeyButton
+                android:id="@+id/buttonEnter"
+                style="@style/Style_KeyButton"
+                android:text="@string/keybuttonEnter" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
